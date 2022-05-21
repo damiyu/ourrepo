@@ -1,0 +1,1 @@
+Test with [] but without parentheses.
