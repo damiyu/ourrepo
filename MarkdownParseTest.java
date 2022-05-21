@@ -129,7 +129,7 @@ public class MarkdownParseTest {
     }
 
     @Test
-        public void snippetTWoTest() throws IOException {
+        public void snippetTwoTest() throws IOException {
         Path fileName = Path.of("snippet2.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(content);
